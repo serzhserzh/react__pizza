@@ -1,0 +1,27 @@
+.root {
+  ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    li {
+      width: 40px;
+      height: 40px;
+      margin: 0 20px;
+      font-size: 25px;
+      cursor: pointer;
+      border: 1px solid #fe5f1e;
+      border-radius: 30px;
+      display: inline-block;
+      text-align: center;
+      color: #fe5f1e;
+      user-select: none;
+    }
+    svg {
+      cursor: pointer;
+    }
+  }
+  .active {
+    background-color: #fe5f1e;
+    color: white;
+  }
+}
